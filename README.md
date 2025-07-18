@@ -36,7 +36,7 @@ to-do-app/
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the live site](https://genuineinsaan.github.io/OIBSIP---Tribute_Page/)
+🔗 [Click here to view the live site](https://genuineinsaan.github.io/OIBSIP---To_do_app/)
 
 ---
 
