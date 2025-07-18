@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h1>Task Tracker</h1>
+    </header>
+
+    <div class="task-input">
+      <input type="text" id="taskTitle" placeholder="Task Title" required>
+      <textarea id="taskDesc" placeholder="Task Description" required></textarea>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="task-columns">
+      <div class="task-list" id="pendingTasks">
+        <h2>Pending Tasks</h2>
+        <ul id="pendingList"></ul>
+      </div>
+      <div class="task-list" id="completedTasks">
+        <h2>Completed Tasks</h2>
+        <ul id="completedList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
